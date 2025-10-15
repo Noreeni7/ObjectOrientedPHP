@@ -9,13 +9,15 @@
 
 <body>
 
+    <form action="" method="post">
+        <input type="text" name="username">
+        <input type="password" name="pwd">
+        <button>Signup</button> 
+    </form>
+
     <?php
 
-    require_once 'Classes/Car.php';    
-
-    $car01->setColor("green");
-    echo $car01->getColor();
-
+    
     ?>
 
 </body>
